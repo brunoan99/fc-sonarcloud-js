@@ -21,7 +21,7 @@ jobs:
         run: npm test
 
       - name: Run Application
-        run: npm run src/usecalc.js
+        run: node src/usecalc.js
 
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
